@@ -1,14 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="index.css"
-</head>
+    <link rel="stylesheet" href="index.css" </head>
+
 <body>
-    
-    <script src="index.js"></script>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=vanish()>
+                <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"
+                    style="padding-left: 24px;">
+                    <path
+                        d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                </svg>
+            </li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Stores</a></li>
+        </ul>
+
+        <ul>
+            <div class="container">
+                <a class="navbar-brand" href="#" style="padding-left: 0px;">
+                    <img src="./assets/logo.png">
+                </a>
+            </div>
+            <li><a class="item" href="#">Men</a></li>
+            <li><a class="item" href="#">Women</a></li>
+            <li><a class="item" href="#">Services</a></li>
+            <li><a class="item" href="#">Stores</a></li>
+            <li onclick=showSidebar() class="menu-btn"><a href="#"><svg xlms="<svg xmlns=" http://www.w3.org/2000/svg"
+                        height="24" viewBox="0 -960 960 960" width="24">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg></a></li>
+    </nav>
+    <div>
+        <div class="label">
+            <p class="winter-styles-are">Summer Styles are finally here</p>
+        </div>
+        
+    </div>
+
+
+    <script src="index.js">
+
+    </script>
 </body>
+
 </html>
